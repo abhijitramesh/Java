@@ -1,7 +1,7 @@
 
-public class arrayDemo {
+public class arrayDemo {//class
 
-	public static void main(String[] arg) {
+	public static void main(String[] arg) {//mainmethod
 		int a[] = {1,2,3,4};//a single dimention array in a variable a
 		for(int k : a) {//enhanced loop for feching values from single dimension array
 			System.out.println(k);//printing using fetched index numbers
