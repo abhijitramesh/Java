@@ -32,7 +32,7 @@ class ObjectDemo1{//class for main
 	ob.multiply();//performing multiplication
 	System.out.println("the product of the numbers = "+ob.result);//printing the result
 	ob.divide();//performing division
-	System.out.println("the quotioent of the numbers = "+ob.result);//printing the result
+	System.out.println("the quotient of the numbers = "+ob.result);//printing the result
 }
 }
 
