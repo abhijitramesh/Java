@@ -20,7 +20,7 @@ class Calculator{
 }
 class ObjectDemo1{//class for main
 	public static void main(String[] arg){//starting main
-	Calcalculator calculator = new Calcalculator();//initialising object ob
+	Calculator calculator = new Calculator();//initialising object ob
 	Scanner scanner = new Scanner(System.in);//importing scanner class and initialising it to sc
 	System.out.println("enter two numbers");//asking user for two values 
 	calculator.num1 = scanner.nextInt();//initalising value to int num1 on object num1
