@@ -29,7 +29,7 @@ class ObjectDemo1{//class for main
 	System.out.println("the sum of the numbers = "+calculator.result);//printing the result
 	calculator.subtract();//performing subtraction
 	System.out.println("the difference of the numbers = "+calculator.result);//printing the result
-	calcucator.multiply();//performing multiplication
+	calculator.multiply();//performing multiplication
 	System.out.println("the product of the numbers = "+calculator.result);//printing the result
 	calculator.divide();//performing division
 	System.out.println("the quotient of the numbers = "+calculator.result);//printing the result
