@@ -7,7 +7,7 @@ import java.util.*;
 	 */
 class Calculator{
 	/**
-	 * this class if for the objects to use the three variables to store data.
+	 * this class is for the objects to use the three variables to store data.
 	 * this is also known as state of the object
 	 * this class also has for methods the object could take advantage perform specific tasks.
 	 * this is known as behavior of the object
@@ -51,7 +51,6 @@ class Calculator{
 class ObjectDemo1{
 	/**
 	 * 
-	 * @param arg nothing
 	 * @return nothing
 	 * this is the main class 
 	 */
@@ -70,7 +69,7 @@ class ObjectDemo1{
 	calculator.number1 = scanner.nextInt();
 	calculator.number2 = scanner.nextInt();
 	/**
-	 * here i am accepting the values for variable number1 and number2 of object calculator
+	 * Here i am accepting the values for variable number1 and number2 of object calculator
 	 */
 	calculator.add();
 	/**
