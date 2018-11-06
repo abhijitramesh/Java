@@ -5,7 +5,7 @@ interface yello{
 
 	
 
-public class LambdDemo {
+public class LambdaDemo {
 	public static void main(String[] args) {
 	yello object = () ->System.out.println("yello world");
 
