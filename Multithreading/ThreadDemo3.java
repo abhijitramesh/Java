@@ -5,20 +5,19 @@ public class ThreadDemo3 {
 		int[] a = new int [500];
 	Runnable object1 =() -> 
 	{
-							for(int i = 0; i< 500; i++) {
-							try {Thread.sleep(100);}catch(Exception e) {}
-								a[i] = i;
-							
-								System.out.print(a[i]+" ");
+				for(int i = 0; i< 500; i++) {
+				try {Thread.sleep(100);}catch(Exception e) {}
+				a[i] = i;			
+				System.out.print(a[i]+" ");
 							}
 	};
 	Runnable object2 = () ->
 	{
-							for(int i = 0; i< 500; i++) {
-								try {Thread.sleep(100);}catch(Exception e) {}
-								a[i] = a[i]*2;
-								System.out.print(a[i]);
-								System.out.println();
+				for(int i = 0; i< 500; i++) {
+				try {Thread.sleep(100);}catch(Exception e) {}
+				a[i] = a[i]*2;
+				System.out.print(a[i]);
+				System.out.println();
 								
 							}
 	};
@@ -30,6 +29,6 @@ public class ThreadDemo3 {
 	
 	
 	
-											}
+	}
 
-							}	
+}	
