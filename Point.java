@@ -45,5 +45,17 @@ public int whichQuadrant() {
 				else
 					return 4;
 }
+public Point xProjection() {
+	this.setY(0);
+	return this;
+}
+public Point yProjection() {
+	this.setX(0);
+	return this;
+}
+public void scalarMultiply(int c) {
+	this.x = x*c;
+	this.y = y*c;
+}
 
 }
