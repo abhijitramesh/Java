@@ -27,5 +27,23 @@ public int getY() {
 public void print() {
 	System.out.println("x = "+this.x+"\ny = "+this.y);
 }
+public boolean isOrigin() {
+	if(this.x == 0&& this.y==0) {
+		return true;
+	}
+	else 
+		return false;
+}
+public int whichQuadrant() {
+	if(this.x==0&&this.y==0) {return 0;}
+	else 
+		if(this.x>0&&this.y>0) {return 1;}
+		else 
+			if(this.x<0&&this.y<0) {return 2;}
+			else
+				if(this.x<0&&this.y<0) {return 3;}
+				else
+					return 4;
+}
 
 }
