@@ -23,7 +23,8 @@ public class Driver {
 			System.out.println("Different");
 
 		}
-		
+		Point p2 = new Point(2,3);
+		p2.print();
 	}
 
 }
