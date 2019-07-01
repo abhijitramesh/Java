@@ -97,4 +97,5 @@ public boolean isCollinear(Point q,Point r) {
 	
 }
 
+
 }

@@ -86,7 +86,18 @@ public class Driver {
 		else
 			System.out.println("Collinear");
 		
+		System.out.println("**********************************ARRAYS**********************************");
 		
+		  Point[] points = new Point[20];
+
+		  for (int i = 0; i < 20; i++)
+		    points[i] = new Point(i*31%11,i*59%11); // i*31(mod 11), i*59(mod 11)
+
+		  for (int i = 1; i < 20; i++)
+		    System.out.println( "The slope of " + points[0] 
+		                        + " and " + points[i] 
+		                        + " = " + points[0].slope( points[i]) );
+
 		
 }
 }
