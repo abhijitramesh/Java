@@ -68,5 +68,25 @@ public class Driver {
 	        q.setY(3);
 	        System.out.println(p.absoulte(q));
 	        System.out.println(p.distance(q));
+	        p.setX(2);
+	        p.setY(7);
+	        q.setX(-3);
+	        q.setY(1);
+	        p.equationOfLine(q);
+		
+		p.setX(3);
+		p.setY(-7);
+		q.setX(-2);
+		q.setY(0);
+		Point r = new Point(0,11);
+		if ( p.isClockwise(q,r) )
+			System.out.println("Clockwise");
+		else if ( p.isCounterClockwise(q,r) )
+			System.out.println("Counter-clockwise");
+		else
+			System.out.println("Collinear");
+		
+		
+		
 }
 }

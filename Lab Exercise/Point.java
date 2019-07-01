@@ -70,4 +70,31 @@ public int absoulte(Point p) {
 public double distance(Point p) {
 	return Math.sqrt(Math.pow((p.y-this.y), 2)+Math.pow(p.x-this.x, 2));
 }
+public double yintercept(Point p) {
+	return this.y-slope(p)*this.x;
+}
+public void equationOfLine(Point p) {
+	double m = slope(p);
+	double c = yintercept(p);
+	System.out.println("y ="+m+"x + "+c);
+}
+public boolean isClockwise(Point q,Point r) {
+	if(this.slope(q)>this.slope(r))
+			{return true;}
+	else return false;
+	
+}
+public boolean isCounterClockwise(Point q,Point r) {
+	if(this.slope(q)<this.slope(r))
+			{return true;}
+	else return false;
+	
+}
+public boolean isCollinear(Point q,Point r) {
+	if(this.slope(q)==this.slope(r))
+			{return true;}
+	else return false;
+	
+}
+
 }
