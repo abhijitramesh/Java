@@ -50,6 +50,23 @@ public class Driver {
 		  Point y = new Point(3,8);
 	        y.scalarMultiply(5);
 	        y.print();
-	}
-
+	        p.setX(7);
+	        p.setY(-3);
+	        q.setX(4);
+	        q.setY(10);
+	        System.out.println(p.sum(q));
+	        p.sum(q).print();
+	        q.sum(p).print();
+	        p.setX(5);
+	        p.setY(8);
+	        q.setX(3);
+	        q.setY(8);
+	        System.out.println("Slope ="+p.slope(q));
+	        p.setX(1);
+	        p.setY(1);
+	        q.setX(3);
+	        q.setY(3);
+	        System.out.println(p.absoulte(q));
+	        System.out.println(p.distance(q));
+}
 }

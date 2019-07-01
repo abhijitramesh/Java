@@ -1,4 +1,4 @@
-
+import java.lang.Math;
 public class Point {
 
 private int x;
@@ -57,5 +57,17 @@ public void scalarMultiply(int c) {
 	this.x = x*c;
 	this.y = y*c;
 }
-
+public Point sum(Point q) {
+	return new Point(this.x+q.x,this.y+q.y);
+	
+}
+public double slope(Point p) {
+	return (double)(p.y-this.y)/(p.x-this.x);
+}
+public int absoulte(Point p) {
+	return Math.abs((p.x-this.x)+(p.y-this.y));
+}
+public double distance(Point p) {
+	return Math.sqrt(Math.pow((p.y-this.y), 2)+Math.pow(p.x-this.x, 2));
+}
 }
