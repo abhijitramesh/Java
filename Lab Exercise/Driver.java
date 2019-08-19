@@ -1,4 +1,4 @@
-package lab_1;
+
 
 public class Driver {
 	public static void main(String[] args) {
@@ -109,8 +109,23 @@ System.out.println("*********************************Composition****************
 		Line l1 = new Line(1,1,2,2);
 		System.out.println(l1.getPoint1().getX() +" "+ l1.getPoint1().getY());
 		System.out.println(l1.getPoint2().getX()+" "+l1.getPoint2().getY());
-		System.out.println(Slope(l1));
-	
+System.out.println("*********************************Interfaces************************************************");
+		Circle c1 = new Circle();
+		c1.radius = 2.6;
+		System.out.println(c1.area());
+		System.out.println(c1.perimeter());
+		Triangle t1 = new Triangle();
+		t1.side=2;
+		t1.side1=3;
+		t1.side2=4;
+		System.out.println(t1.area());
+		System.out.println(t1.perimeter());
+		Square s1= new Square();
+		s1.side = 2;
+		System.out.println(s1.area());
+		System.out.println(s1.perimeter());
+		
+		
 }
 
 }
